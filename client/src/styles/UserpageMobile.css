@@ -1,0 +1,410 @@
+@media (max-width: 762px) {
+    .title_color_handler_container /*.new_palette_container .select_container*/, .filter_by_label {
+        display: none;
+    }
+
+    .filter_select_container {
+        padding-left: 10px;
+    }
+
+    .user_display {
+        width: 300px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_user_display {
+        grid-template-columns: 350px 350px;
+        column-gap: 1px;
+        row-gap: 10px;
+        justify-items: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .palette_user_info {
+        width: 94%;
+        padding: 9px;
+        font-size: 14px;
+    }
+
+    .delete_palette_button {
+        display: none;
+    }
+
+    .delete_palette_button_mobile {
+        display: flex;
+        /*padding: 5px;*/
+        width: 25px;
+        height: 25px;
+        background-color: #4A33DC;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media(max-width: 720px) {
+    .title_color_handler_container, /*.new_palette_container*/ .select_container, .filter_by_label {
+        display: none;
+    }
+
+    .upper_color_handler {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .menu_button_container {
+        display: flex;
+    }
+
+    .menu_button {
+        background-color: whitesmoke;
+        border: 0;
+        font-size: 22px;
+        color: #4A33DC;
+    }
+
+    .menu_button i {
+        pointer-events: none;
+    }
+
+    .container_user_display {
+        grid-template-columns: 320px 320px;
+        justify-items: center;
+        align-items: center;
+        width: 80%;
+    }
+}
+
+@media(max-width: 670px) {
+    .container_user_display {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .upper_color_handler {
+        justify-content: space-between;
+        width: 70%;
+    }
+
+
+    .menu_button_container {
+        display: flex;
+    }
+
+    .menu_button {
+        background-color: whitesmoke;
+        border: 0;
+        font-size: 22px;
+        color: #4A33DC;
+    }
+
+    .menu_button i {
+        pointer-events: none;
+    }
+
+    .user_display {
+        width: 70%;
+        height: 220px;
+        display: flex;
+        
+        flex-direction: column;
+    }
+
+    .delete_palette_button {
+        display: none;
+    }
+
+    .palette_user_info {
+        width: 96%;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .delete_palette_button_mobile {
+        display: flex;
+        /*padding: 5px;*/
+        width: 25px;
+        height: 25px;
+        background-color: #4A33DC;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 520px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container_user_display {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 85%;
+    }
+
+     .title_color_handler_container, /*.new_palette_container*/ .select_container, .filter_by_label {
+        display: none;
+    }
+
+    .container_color_handler {
+        width: 100%;
+    }
+
+    .upper_color_handler {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .color_handling_button {
+        font-size: 18px;
+    }
+
+    .menu_button_container {
+        display: flex;
+    }
+
+    .menu_button {
+        background-color: whitesmoke;
+        border: 0;
+        font-size: 22px;
+        color: #4A33DC;
+    }
+
+    .menu_button i {
+        pointer-events: none;
+    }
+
+    .lower_color_handler {
+        width: 500px;
+    }
+
+    .user_display {
+        /*width: 350px;*/
+        width: 80%;
+        height: 220px;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .delete_palette_button {
+        display: none;
+    }
+
+    .palette_user_info {
+        width: 94%;
+        /*padding: 7px;*/
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .delete_palette_button_mobile {
+        display: flex;
+        /*padding: 5px;*/
+        width: 25px;
+        height: 25px;
+        background-color: #4A33DC;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*.mobile_palette_display {
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        position: fixed;
+       
+        display: flex;
+        top: 0;
+        left: 0;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+    }*/
+
+
+    .close_window_container {
+        padding: 15px;
+        width: 95%;
+        height: 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .close_window {
+        background-color: whitesmoke;
+        border: 0;
+        font-size: 22px;
+        color: #4A33DC;
+    }
+
+    .close_window i {
+        pointer-events: none;
+    }
+
+    .mobile_palette_display_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile_palette_display_title h2 {
+        font-size: 20px;
+    }
+
+    .container_colors_mobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .mobile_color_info {
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 150px;
+        height: 30px;
+        background-color: #ececec;
+        margin-bottom: 10px;
+        border-radius: 10px;
+
+    }
+
+    .mobile_div_info {
+        display: flex;
+        justify-content: space-between;
+        width: 45px;
+    }
+
+    .copy_color {
+        background-color: #ececec;
+        border: 0;
+    }
+
+    .copy_color i {
+        pointer-events: none;
+        color: #454545;
+    }
+
+    .mobile_color_block {
+        width: 20px;
+        height: 20px;
+    }
+
+    .mobile_text_info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+    /*.mobile_menu_overlay {
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.733);
+        display: flex;
+        top: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+    }*/
+
+    .mobile_menu {
+        width: 0px;
+        background-color: whitesmoke;
+        height: 100%;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 15px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .mobile_menu_title {
+        width: 100%;
+        text-align: center;
+        color: #4A33DC;
+        font-size: 18px;
+    }
+
+    .mobile_menu_list {
+        list-style-type: none;
+    }
+
+    .mobile_menu_list li {
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+
+
+    .mobile_filter_select_button {
+        min-width: 120px;
+        height: 30px;
+        padding: 5px;
+        background-color: whitesmoke;
+        color: #4A33DC;
+        border: 0;
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+
+    .mobile_filter_select_button i {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+
+    /*sessão adicionar paleta*/
+
+    .title_add_palette h2 {
+        font-size: 20px;
+    }
+
+    .palette_title_insert, .palette_color_insert {
+        width: 180px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .save_palette_button, .cancel_palette_button {
+        width: 100px;
+        font-size: 14px;
+        height: 30px;
+    }
+
+    .color_list_viewer {
+        width: 100%;
+    }
+
+}

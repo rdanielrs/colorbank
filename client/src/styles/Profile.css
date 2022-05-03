@@ -1,0 +1,173 @@
+.container_profile_page {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #454545;
+    font-weight: 800;
+}
+
+.profile_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_content {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #dadada;
+    padding: 5px;
+}
+
+.account_options_container {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.account_option {
+    background-color: #4A33DC;
+    min-width: 120px;
+    height: 35px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 15px;
+    border: 0;
+    margin-right: 15px;
+    border-radius: 10px;
+
+}
+
+.account_option:hover {
+    background-color: #3521B5;
+    cursor: pointer;
+}
+
+.remove_account_window {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.remove_account_title {
+    text-align: center;
+    width: 100%;
+
+}
+
+.remove_account_input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.edit_profile_page {
+    flex-direction: column;
+}
+
+.edit_title {
+    width: 110%;
+    text-align: center;
+}
+
+/*.container_edit {
+    width: 100%;
+}*/
+
+.warning_text_container {
+    width: 100%;
+    text-align: center;
+}
+
+.input_section {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #dadada;
+}
+
+.edit_input, .remove_input {
+    padding: 5px;
+    border: 1px solid #dadada;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+.edit_buttons {
+    margin-top: 35px;
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit_confirm_button, .edit_cancel_button, .remove_confirm_button, .remove_cancel_button {
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.edit_confirm_button, .remove_confirm_button {
+    background-color: #4A33DC;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.edit_cancel_button, .remove_cancel_button {
+    background-color: #dadada;
+    color: #454545;
+}
+
+.edit_confirm_button:hover, .remove_confirm_button:hover {
+    background-color: #3521B5;
+    cursor: pointer;
+}
+
+.edit_cancel_button:hover, .remove_cancel_button:hover {
+    background-color: #c9c9c9;
+    cursor: pointer;
+}
+
+.remove_account_buttons {
+    margin-top: 35px;
+}
